@@ -30,5 +30,22 @@ namespace Scoala
             return Name + ", " + Age + " ani, sta la " + Address + ", si este " + ((Sex == Sex.Female) ? "femeie" : "barbat");
         }
         #endregion
+
+        public class Animal
+        {
+            bool IsDomestic;
+            public List<Animal> Pet;
+            private readonly string Name;
+            private readonly int Age;
+
+            public Animal(string name, int age, bool isDomestic, List<Animal> pet)
+            {
+                Name = name;
+                Age = age;
+                IsDomestic = isDomestic;
+                Pet = pet;
+            }
+        }
+
     }
 }
