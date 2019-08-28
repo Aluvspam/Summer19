@@ -12,5 +12,9 @@ namespace Scoala
         public string StreetAddress1;
         public string StreetAddress2;
         //TO DO create overide for ToString() method here - George
+        public override string ToString()
+        {
+            return "adresa: " + Town + " " + StreetAddress1 + " " + StreetAddress2;
+        }
     }
 }
