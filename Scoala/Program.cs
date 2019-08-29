@@ -11,14 +11,17 @@ namespace Scoala
         public static void Main()
         {
             var oAdresa = new Address() { Town = "Bucale", StreetAddress1 = "MihaiEminescu nr. 21", StreetAddress2 = "Etaj 7, room 704" };
-            var studentul = new Student("Costin", 27, oAdresa, Sex.Male, Curs.Intermediari, 1);
+            var studentul = new Student("Costin", 27, oAdresa, Sex.Male, "Intermediari", 1);
+            var curs = new List<Curs>(2);
             Console.WriteLine("population: "/*Student= " + Student.Pupulation + " ; Teacher = " + Teacher.Pupulation + " ; Total = "*/ + Person.Pupulation);
-            var studenta = new Student("Cristina Saitoc", 32, new Address() { Town = "Bucale", StreetAddress1 = "MihaiEminescu nr. 21", StreetAddress2 = "Etaj 7, room 704" }, Sex.Female, Curs.Intermediari, 2);
+            var studenta = new Student("Cristina Saitoc", 32, new Address() { Town = "Bucale", StreetAddress1 = "MihaiEminescu nr. 21", StreetAddress2 = "Etaj 7, room 704" }, Sex.Female, "Intermediari", 2);
+            var teacher = new Teacher("profesor : Andrei", 33, oAdresa, Sex.Male, 10, curs);
             studentul.Age++;
             studenta.Address.Town = "Bucuresti";
             var agenda = new List<Person>();
             agenda.Add(studenta);
             agenda.Add(studentul);
+            agenda.Add(teacher);
             foreach (var item in agenda)
             {
                 Console.WriteLine(item);
