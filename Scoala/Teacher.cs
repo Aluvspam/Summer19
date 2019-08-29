@@ -11,10 +11,16 @@ namespace Scoala
         public int Experience;
         public List<Curs> Cursuri;
 
+        public override string ToString()
+        {
+            return base.ToString() + "has experience x years";
+        }
+
         public Teacher(string nume, int age, Address adresa, Sex sex, int experienta, List<Curs> cursuri) : base(nume, age, adresa, sex)
         {
             Experience = experienta;
             Cursuri = cursuri;
         }
+
     }
 }
