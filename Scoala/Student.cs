@@ -17,10 +17,17 @@ namespace Scoala
             Semester = semester;
         }
 
-
+        public void Study()
+        {
+            Console.WriteLine("Learning");
+        }
         public override string ToString()
         {
             return base.ToString() + ". " + ((Sex == Sex.Female) ? "Ea" : "El") + " este " + ((Sex == Sex.Female) ? "inscrisa" : "inscris") + " in grupa " + Group.ToString() + ".";
+        }
+        public override void SpecialAction()
+        {
+            Study();
         }
     }
 }

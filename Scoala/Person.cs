@@ -31,6 +31,10 @@ namespace Scoala
         {
             return Name + ", " + Age + " ani, sta la " + Address + ", si este " + ((Sex == Sex.Female) ? "femeie" : "barbat");
         }
+        public virtual void SpecialAction()
+        {
+
+        }
         #endregion
     }
 }

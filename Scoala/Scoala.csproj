@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Address.cs" />
     <Compile Include="Animal.cs" />
+    <Compile Include="Beggar.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Curs.cs" />
     <Compile Include="Person.cs" />
