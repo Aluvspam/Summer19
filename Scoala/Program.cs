@@ -28,7 +28,7 @@ namespace Scoala
         }
     }
 }
-//TO DO: create a class Animal and add a field List<Animal> Pet in class Person - Adi
+//TO DO: create a class Animal and add a field List<Animal> Pet in class Person - Adi - done, bravo
 //Create Class dog that inherits Animal and add a dog in the field Pet of object studenta - studenta (dupa ce comite Adi)
 //Create a new student and give him 2 pets - Bogdan
 //TO DO: Do something - Costin
