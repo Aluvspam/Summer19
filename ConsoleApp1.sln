@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.329
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{D243B367-E1C6-4DCE-962E-46855241A749}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoala", "Scoala\Scoala.csproj", "{3B9EAF09-A51B-4DF2-8B97-48488F8B511C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMP3Player", "..\..\..\Desktop\Cursuri Modif\MyMP3Player\MyMP3Player\MyMP3Player.csproj", "{F2229D21-9733-46B0-A0AE-485602F5DF46}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScissorsPaperRockGame", "..\..\..\Desktop\Cursuri Modif\ScissorsPaperRockGame\ScissorsPaperRockGame\ScissorsPaperRockGame.csproj", "{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "..\TicTacToe\TicTacToe\TicTacToe.csproj", "{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{3B9EAF09-A51B-4DF2-8B97-48488F8B511C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B9EAF09-A51B-4DF2-8B97-48488F8B511C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B9EAF09-A51B-4DF2-8B97-48488F8B511C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2229D21-9733-46B0-A0AE-485602F5DF46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2229D21-9733-46B0-A0AE-485602F5DF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2229D21-9733-46B0-A0AE-485602F5DF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2229D21-9733-46B0-A0AE-485602F5DF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
