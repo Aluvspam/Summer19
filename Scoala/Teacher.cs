@@ -12,7 +12,7 @@ namespace Scoala
         public int Experience;
         public List<Curs> Cursuri;
         #endregion
-
+        //comment test for master branch
         #region constructors
         public Teacher(string nume, int age, Address adresa, Sex sex, int experienta, List<Curs> cursuri) : base(nume, age, adresa, sex)
         {
