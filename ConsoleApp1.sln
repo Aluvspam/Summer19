@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyMP3Player", "..\..\..\Des
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ScissorsPaperRockGame", "..\..\..\Desktop\Cursuri Modif\ScissorsPaperRockGame\ScissorsPaperRockGame\ScissorsPaperRockGame.csproj", "{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicTacToe", "..\TicTacToe\TicTacToe\TicTacToe.csproj", "{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95FBAEB9-77EE-45F6-9DBD-33CCE7CC5E26}.Release|Any CPU.Build.0 = Release|Any CPU
-		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{748C86CD-4DE3-46D2-B6EA-C6F6CE3AF577}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
