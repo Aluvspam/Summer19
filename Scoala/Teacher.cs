@@ -20,7 +20,7 @@ namespace Scoala
             Cursuri = cursuri;
         }
         #endregion
-
+        //modificare test pt branch testing
         #region methods
         public override string ToString()
         {
