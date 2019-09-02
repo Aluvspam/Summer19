@@ -20,6 +20,7 @@ namespace Scoala
             Cursuri = cursuri;
         }
         #endregion
+
         #region methods
         public override string ToString()
         {
