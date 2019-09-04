@@ -54,5 +54,10 @@ namespace MyMP3Player
         {
             
         }
+
+        private void Donate_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://patriarhia.ro/cauta/?searchword=donatii&submitSearch=Caut%C4%83&searchphrase=any");
+        }
     }
 }

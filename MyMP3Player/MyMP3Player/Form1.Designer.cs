@@ -36,6 +36,7 @@
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
             this.Pause = new System.Windows.Forms.Button();
             this.Volume = new System.Windows.Forms.TrackBar();
+            this.Donate = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.Volume)).BeginInit();
             this.SuspendLayout();
             // 
@@ -109,12 +110,25 @@
             this.Volume.TabIndex = 5;
             this.Volume.Scroll += new System.EventHandler(this.Volume_Scroll);
             // 
+            // Donate
+            // 
+            this.Donate.BackColor = System.Drawing.SystemColors.HotTrack;
+            this.Donate.ForeColor = System.Drawing.Color.Yellow;
+            this.Donate.Location = new System.Drawing.Point(433, 43);
+            this.Donate.Name = "Donate";
+            this.Donate.Size = new System.Drawing.Size(75, 23);
+            this.Donate.TabIndex = 6;
+            this.Donate.Text = "Donate";
+            this.Donate.UseVisualStyleBackColor = false;
+            this.Donate.Click += new System.EventHandler(this.Donate_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.OliveDrab;
             this.ClientSize = new System.Drawing.Size(564, 228);
+            this.Controls.Add(this.Donate);
             this.Controls.Add(this.Volume);
             this.Controls.Add(this.Pause);
             this.Controls.Add(this.Stop);
@@ -140,6 +154,7 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button Pause;
         private System.Windows.Forms.TrackBar Volume;
+        private System.Windows.Forms.Button Donate;
     }
 }
 

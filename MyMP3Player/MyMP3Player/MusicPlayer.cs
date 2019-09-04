@@ -42,6 +42,10 @@ namespace MyMP3Player
             mciSendString(command, null, 0, 0);
         }
 
-
+        public void Donate()
+        {
+            string command = "donate";
+            mciSendString(command, null, 0, 0);
+        }
     }
 }
