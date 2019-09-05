@@ -48,6 +48,7 @@
     <Compile Include="Beggar.cs" />
     <Compile Include="InternalCombustionEngine.cs" />
     <Compile Include="Nationality.cs" />
+    <Compile Include="SporturiPracticate.cs" />
     <Compile Include="Student.cs" />
     <Compile Include="Curs.cs" />
     <Compile Include="Person.cs" />
