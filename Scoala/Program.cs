@@ -10,6 +10,7 @@ namespace Scoala
     {
         public static void Main()
         {
+
             var oAdresa = new Address() { Town = "Bucale", StreetAddress1 = "MihaiEminescu nr. 21", StreetAddress2 = "Etaj 7, room 704" };
             var studentul = new Student("Costin", 27, oAdresa, Sex.Male, Curs.Intermediari, 1);
             var curs = new List<Curs>(2);
@@ -42,6 +43,11 @@ namespace Scoala
                 }
             }
             //TO DO: Create a teacher and add it to agenda - Marian
+           
+
+            Console.WriteLine(new Nationality("Romanian"));
+
+
             Console.ReadLine();
         }
     }
