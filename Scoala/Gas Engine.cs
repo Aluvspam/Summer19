@@ -6,11 +6,21 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    public class Gas_Engine: Engine
+    public class Gas_Engine : Engine
     {
-        public void ResourceType ()
+        public Gas_Engine()
         {
-            Console.WriteLine("This engine's used resource is Gas");
+            energyInput = "gas";
+        }
+
+        public override void Start()
+        {
+            throw new NotImplementedException();
+        }
+
+        public override void Stop()
+        {
+            throw new NotImplementedException();
         }
     }
 }
