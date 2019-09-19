@@ -6,24 +6,26 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    public abstract class Engine
+    public abstract class Engine : IEngine
     {
-        public string energyInput;
+        protected string energyInput;
         public int Power;
         public double Consumption;
-        public int CurrentPower;
-        public abstract void Start();
+        int currentPower;
 
-        public abstract void Stop();
+        public int CurrentPower { get; private set; }
 
         public virtual void NewPower(int newPower)
         {
             CurrentPower = newPower;
             Console.WriteLine("The new power of the engine is...");
         }
-        public void ResourceType()
+        public virtual void ResourceType()
         {
             Console.WriteLine("This engine's used resource is " + energyInput);
         }
+
+        public abstract void Start();
+        public abstract void Stop();
     }
 }

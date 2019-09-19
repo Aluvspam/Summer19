@@ -50,6 +50,7 @@
     <Compile Include="Electric Engine.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="Gas Engine.cs" />
+    <Compile Include="IEngine.cs" />
     <Compile Include="InternalCombustionEngine.cs" />
     <Compile Include="Nationality.cs" />
     <Compile Include="SporturiPracticate.cs" />
