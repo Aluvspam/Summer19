@@ -43,7 +43,7 @@ namespace Scoala
                 }
             }
             //TO DO: Create a teacher and add it to agenda - Marian
-           
+          
 
             Console.WriteLine(new Nationality("Romanian"));
 

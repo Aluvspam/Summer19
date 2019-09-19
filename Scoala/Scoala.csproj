@@ -46,6 +46,10 @@
     <Compile Include="Address.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="Beggar.cs" />
+    <Compile Include="Diesel Engine.cs" />
+    <Compile Include="Electric Engine.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="Gas Engine.cs" />
     <Compile Include="InternalCombustionEngine.cs" />
     <Compile Include="Nationality.cs" />
     <Compile Include="SporturiPracticate.cs" />
