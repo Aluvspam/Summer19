@@ -8,7 +8,7 @@ namespace Scoala
 {
     public class Gas_Engine: Engine
     {
-        public static void ResourceType ()
+        public void ResourceType ()
         {
             Console.WriteLine("This engine's used resource is Gas");
         }

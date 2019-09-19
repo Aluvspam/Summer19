@@ -10,22 +10,21 @@ namespace Scoala
     {
         public int Power;
         public double Consumption;
-       
-        public static void Start()
+        public int CurrentPower;
+        public void Start()
         {
             Console.WriteLine("The engine started!");
         }
 
-        public static void Stop()
+        public void Stop()
         {
             Console.WriteLine("The engine stopped");
         }
 
-        public static void NewPower()
+        public void NewPower(int newPower)
         {
+            CurrentPower = newPower;
             Console.WriteLine("The new power of the engine is...");
         }
-
-
     }
 }
