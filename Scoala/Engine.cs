@@ -8,16 +8,9 @@ namespace Scoala
 {
     public class Engine
     {
-        public static void Power(int a)
-        {
-            Console.WriteLine($"Power is {a}");
-        }
-
-        public static void Consumption(double b)
-        {
-            Console.WriteLine($"Consumption is {b}");
-        }
-
+        public int Power;
+        public double Consumption;
+       
         public static void Start()
         {
             Console.WriteLine("The engine started!");
