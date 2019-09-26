@@ -49,6 +49,7 @@
     <Compile Include="Diesel Engine.cs" />
     <Compile Include="Electric Engine.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="ExampleFolder\TestE.cs" />
     <Compile Include="Gas Engine.cs" />
     <Compile Include="IEngine.cs" />
     <Compile Include="InternalCombustionEngine.cs" />
