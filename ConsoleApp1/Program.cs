@@ -11,6 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            var c = new CopyMy(new AltReader(), new Screen());
+            c.Copy();
             var v = new Point();
             var p = new Point(7, 2);
             Console.WriteLine(p);
