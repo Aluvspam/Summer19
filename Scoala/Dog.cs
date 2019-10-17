@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    class Dog : Animal
+    class Dog : AbstractAnimal
     {
         public Dog(string name, int age, bool isDomestic) : base(name, age, isDomestic)
         {
-         
+
         }
         public override void Eat()
         {
@@ -18,6 +18,7 @@ namespace Scoala
         }
         public override void Move()
         {
+            RunOn4Legs();
         }
         public override void Sleep()
         {
@@ -29,6 +30,6 @@ namespace Scoala
         }
     }
 
-        }
-    
+}
+
 
