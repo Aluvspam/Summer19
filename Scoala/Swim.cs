@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp1
+namespace Scoala
 {
     class Swim : IMoveStrategy
     {
-
+        public void Execute()
+        {
+            Console.WriteLine("Zboooor");
+        }
     }
 }
