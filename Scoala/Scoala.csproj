@@ -49,6 +49,7 @@
     <Compile Include="Cat.cs" />
     <Compile Include="Bird.cs" />
     <Compile Include="Diesel Engine.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="Electric Engine.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="ExampleFolder\TestE.cs" />
