@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    class Dog : Animal
+    class Dog : AbstractAnimal
     {
         public Dog(string name, int age, bool isDomestic) : base(name, age, isDomestic)
         {
@@ -18,10 +18,11 @@ namespace Scoala
         }
         public override void Move()
         {
+            RunOn4Legs();
         }
         public override void Sleep()
         {
-            Console.WriteLine("Bone dream");
+            Console.WriteLine(" dream");
         }
         public void Talk()
         {
