@@ -67,6 +67,7 @@
     <Compile Include="Sex.cs" />
     <Compile Include="Teacher.cs" />
     <Compile Include="Telefon.cs" />
+    <Compile Include="Wizard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
