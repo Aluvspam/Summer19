@@ -30,7 +30,7 @@ namespace Scoala
 
         public virtual void RunOn4Legs()
         {
-            Console.WriteLine("Running with my 4 legs");
+            
         }
         public virtual void Move()
         {

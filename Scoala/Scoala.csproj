@@ -62,6 +62,7 @@
     <Compile Include="IMoveStrategy.cs" />
     <Compile Include="InternalCombustionEngine.cs" />
     <Compile Include="Nationality.cs" />
+    <Compile Include="RunLeg.cs" />
     <Compile Include="SporturiPracticate.cs" />
     <Compile Include="SteamEngine.cs" />
     <Compile Include="Student.cs" />
