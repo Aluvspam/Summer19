@@ -12,6 +12,7 @@ namespace Scoala
         public string Name;
         public int Age;
         public bool IsDomestic;
+        public IMoveStrategy MoveStrategy;
         #endregion
 
         #region constructors
@@ -24,13 +25,16 @@ namespace Scoala
 
         public abstract void Eat();
 
-        public abstract void Move();
-
+       
         public abstract void Sleep();
 
         public virtual void RunOn4Legs()
         {
             Console.WriteLine("Running with my 4 legs");
+        }
+        public virtual void Move()
+        {
+            MoveStrategy.Execute();
         }
         #endregion
     }

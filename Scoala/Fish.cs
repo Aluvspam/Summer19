@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    public class Fish : Animal
+    public class Fish : AbstractAnimal
     {
         public Fish(string name, int Age, bool IsDomestic) : base (name, Age, IsDomestic)
         {
