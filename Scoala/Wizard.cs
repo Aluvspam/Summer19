@@ -12,11 +12,11 @@ namespace Scoala
         {
         }
 
-        public void MakeItFly(IAnimal animal)
+        public void MakeItFly(AbstractAnimal animal)
         {
-            //TO DO: write code here to make the animal fly
+            animal.MoveStrategy = new Fly();
         }
-        public void Freeze(IAnimal animal)
+        public void Freeze(AbstractAnimal animal)
         {
             //TO DO: write code here to make the animal fly
         }
