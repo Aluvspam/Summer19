@@ -49,6 +49,7 @@
     <Compile Include="Cat.cs" />
     <Compile Include="Bird.cs" />
     <Compile Include="Diesel Engine.cs" />
+    <Compile Include="Dog.cs" />
     <Compile Include="Electric Engine.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="ExampleFolder\TestE.cs" />
@@ -68,6 +69,7 @@
     <Compile Include="Sex.cs" />
     <Compile Include="Teacher.cs" />
     <Compile Include="Telefon.cs" />
+    <Compile Include="Wizard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

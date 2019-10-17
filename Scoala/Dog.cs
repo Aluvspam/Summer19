@@ -6,27 +6,29 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    class Bird : AbstractAnimal
+    class Dog : Animal
     {
-        public Bird(string name, int age, bool isDomestic) : base(name, age, isDomestic)
+        public Dog(string name, int age, bool isDomestic) : base(name, age, isDomestic)
         {
-
+         
         }
         public override void Eat()
         {
-            Console.WriteLine("orz");
+            Console.WriteLine("Running after cat !");
         }
         public override void Move()
         {
-            Console.WriteLine("fly");
         }
         public override void Sleep()
         {
-            Console.WriteLine("never sleep");
+            Console.WriteLine("Bone dream");
         }
         public void Talk()
         {
-            Console.WriteLine("cip cirip");
+            Console.WriteLine("I'm barking");
         }
     }
-}
+
+        }
+    
+

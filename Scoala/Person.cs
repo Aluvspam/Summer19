@@ -14,7 +14,7 @@ namespace Scoala
         public Address Address;
         public Sex Sex;
         public static long Pupulation;
-        public List<Animal> Pet;
+        public List<AbstractAnimal> Pet;
 
         #endregion
 

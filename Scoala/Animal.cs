@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    public abstract class Animal : IAnimal
+    public abstract class AbstractAnimal : IAnimal
     {
         #region fields
         public string Name;
@@ -15,7 +15,7 @@ namespace Scoala
         #endregion
 
         #region constructors
-        public Animal(string name, int age, bool isDomestic)
+        public AbstractAnimal(string name, int age, bool isDomestic)
         {
             Name = name;
             Age = age;
@@ -27,6 +27,11 @@ namespace Scoala
         public abstract void Move();
 
         public abstract void Sleep();
+
+        public virtual void RunOn4Legs()
+        {
+            Console.WriteLine("Running with my 4 legs");
+        }
         #endregion
     }
 }

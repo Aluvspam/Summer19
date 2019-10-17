@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    interface IAnimal
+    public interface IAnimal
     {
         void Eat();
         void Sleep();
