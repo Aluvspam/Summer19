@@ -22,7 +22,7 @@ namespace Scoala
         }
         public override void Sleep()
         {
-            Console.WriteLine(" dream");
+            Console.WriteLine("Bone dream");
         }
         public void Talk()
         {
