@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Scoala
 {
-    public class Animal
+    public abstract class Animal : IAnimal
     {
         #region fields
         public string Name;
         public int Age;
-        bool IsDomestic;
+        public bool IsDomestic;
         #endregion
 
         #region constructors
@@ -21,6 +21,12 @@ namespace Scoala
             Age = age;
             IsDomestic = isDomestic;
         }
+
+        public abstract void Eat();
+
+        public abstract void Move();
+
+        public abstract void Sleep();
         #endregion
     }
 }
