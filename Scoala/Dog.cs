@@ -18,10 +18,11 @@ namespace Scoala
         }
         public override void Move()
         {
+            RunOn4Legs();
         }
         public override void Sleep()
         {
-            Console.WriteLine("Bone dream");
+            Console.WriteLine(" dream");
         }
         public void Talk()
         {
