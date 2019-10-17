@@ -16,7 +16,6 @@ namespace Scoala
         }
             public override void Move()
         {
-            Console.WriteLine("Running with my 4 legs");
         }
         public override void Slepp()
         {
