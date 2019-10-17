@@ -15,21 +15,27 @@ namespace Scoala
 
         public override void Eat()
         {
-            Console.WriteLine("eating Jerry!");
+            Console.WriteLine("I am {0} the cat! I am eating Jerry!", Name);
         }
 
         public override void Move()
         {
-            Console.WriteLine("running on my 4 legs!");
+            Console.WriteLine("I am {0} the cat! I am running on my 4 legs!", Name);
         }
 
         public override void Sleep()
         {
-            Console.WriteLine("eu torc");
+            Console.WriteLine("I am {0} the cat! eu torc in 2 limbi!", Name);
         }
         public void Talk()
         {
             Console.WriteLine("Miaauuu!");
+        }
+
+        public void Hunt()
+        {
+            Console.WriteLine("I am {0} the cat! I am hunting a fish if I see one", Name);
+            //TO DO: write code here
         }
     }
 }
