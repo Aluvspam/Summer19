@@ -46,6 +46,7 @@
     <Compile Include="Address.cs" />
     <Compile Include="Animal.cs" />
     <Compile Include="Beggar.cs" />
+    <Compile Include="Bird.cs" />
     <Compile Include="Diesel Engine.cs" />
     <Compile Include="Electric Engine.cs" />
     <Compile Include="Engine.cs" />
