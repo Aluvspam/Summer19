@@ -16,5 +16,9 @@ namespace Scoala
         {
             //TO DO: write code here to make the animal fly
         }
+        public void Freeze(IAnimal animal)
+        {
+            //TO DO: write code here to make the animal fly
+        }
     }
 }

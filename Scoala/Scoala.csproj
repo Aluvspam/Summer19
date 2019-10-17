@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Address.cs" />
-    <Compile Include="Animal.cs" />
+    <Compile Include="AbstractAnimal.cs" />
     <Compile Include="Beggar.cs" />
     <Compile Include="Cat.cs" />
     <Compile Include="Bird.cs" />
