@@ -22,16 +22,14 @@ namespace Scoala
             Age = age;
             IsDomestic = isDomestic;
         }
-
+        #endregion
+        #region abstract methods
         public abstract void Eat();
 
        
         public abstract void Sleep();
-
-        public virtual void RunOn4Legs()
-        {
-            
-        }
+        #endregion
+        #region methods
         public virtual void Move()
         {
             MoveStrategy.Execute();
