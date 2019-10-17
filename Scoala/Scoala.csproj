@@ -54,6 +54,7 @@
     <Compile Include="Engine.cs" />
     <Compile Include="ExampleFolder\TestE.cs" />
     <Compile Include="Fish.cs" />
+    <Compile Include="FrozenMove.cs" />
     <Compile Include="Gas Engine.cs" />
     <Compile Include="IAnimal.cs" />
     <Compile Include="IEngine.cs" />
