@@ -21,7 +21,7 @@ namespace Scoala
         public override void Move()
         {
             Console.WriteLine("I am {0} the cat!", Name);
-            RunOn4Legs();
+            base.Move();
         }
 
         public override void Sleep()
