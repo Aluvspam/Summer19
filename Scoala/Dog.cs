@@ -16,10 +16,6 @@ namespace Scoala
         {
             Console.WriteLine("Running after cat !");
         }
-        public override void Move()
-        {
-            RunOn4Legs();
-        }
         public override void Sleep()
         {
             Console.WriteLine("Bone dream");
