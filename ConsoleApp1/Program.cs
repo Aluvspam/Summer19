@@ -11,6 +11,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            Singleton s = Singleton.Instance;
+            s.SomeMethod();
+            var s2 = Singleton.Instance;
+            s2.SomeMethod();
             var c = new CopyMy(new AltReader(), new Screen());
             c.Copy();
             var v = new Point();

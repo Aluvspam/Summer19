@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Scoala", "Scoala\Scoala.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFT", "TFT\TFT.csproj", "{51E4478C-31D9-4B99-88DE-8EEA08D955B3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDecorator", "PizzaDecorator\PizzaDecorator.csproj", "{5F99B093-C0FC-45A5-95E7-832E2FC937C6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{51E4478C-31D9-4B99-88DE-8EEA08D955B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{51E4478C-31D9-4B99-88DE-8EEA08D955B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{51E4478C-31D9-4B99-88DE-8EEA08D955B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F99B093-C0FC-45A5-95E7-832E2FC937C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F99B093-C0FC-45A5-95E7-832E2FC937C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F99B093-C0FC-45A5-95E7-832E2FC937C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F99B093-C0FC-45A5-95E7-832E2FC937C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

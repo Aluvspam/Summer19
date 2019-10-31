@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D243B367-E1C6-4DCE-962E-46855241A749}</ProjectGuid>
+    <ProjectGuid>{5F99B093-C0FC-45A5-95E7-832E2FC937C6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ConsoleApp1</RootNamespace>
-    <AssemblyName>ConsoleApp1</AssemblyName>
+    <RootNamespace>PizzaDecorator</RootNamespace>
+    <AssemblyName>PizzaDecorator</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,22 +43,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CopyMy.cs" />
-    <Compile Include="IRead.cs" />
-    <Compile Include="IWrite.cs" />
-    <Compile Include="Point.cs" />
+    <Compile Include="AbstractDrink.cs" />
+    <Compile Include="AbstractIngredient.cs" />
+    <Compile Include="AbstractTopping.cs" />
+    <Compile Include="EuBeu.cs" />
+    <Compile Include="Gin.cs" />
+    <Compile Include="IPizza.cs" />
+    <Compile Include="Mozzarella.cs" />
+    <Compile Include="Peperoni.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Singleton.cs" />
+    <Compile Include="RunExamples.cs" />
+    <Compile Include="Tonic.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Scoala\Scoala.csproj">
-      <Project>{3b9eaf09-a51b-4df2-8b97-48488f8b511c}</Project>
-      <Name>Scoala</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
