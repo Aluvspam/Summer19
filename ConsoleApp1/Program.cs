@@ -12,9 +12,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            Singleton s10 = Singleton.Instance;
+            AwesomeSingleton s10 = AwesomeSingleton.Instance;
 
-            Singleton s20 = Singleton.Instance;
+            AwesomeSingleton s20 = AwesomeSingleton.Instance;
 
             Console.WriteLine((Object.ReferenceEquals(s10,s20)) ? "Same object" : "Different Object");
 

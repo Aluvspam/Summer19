@@ -7,22 +7,22 @@ using System.Threading.Tasks;
 namespace ConsoleApp1
 {
 
-    public sealed class Singleton
+    public sealed class AwesomeSingleton
     {
-        private static Singleton instance = null;
+        private static AwesomeSingleton instance = null;
 
-        private Singleton()
+        private AwesomeSingleton()
         {
         }
 
-        public static Singleton Instance
+        public static AwesomeSingleton Instance
         {
             get
             {
                 if (instance == null)
                 {
                     Console.WriteLine("Creating instance. Returning:");
-                    instance = new Singleton();
+                    instance = new AwesomeSingleton();
 
                 }
                 Console.WriteLine("Instance exists. Returning:");
