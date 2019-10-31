@@ -8,6 +8,9 @@ namespace Decorator
 {
     class Tonic : AbstractIngredient
     {
-
+        public override void MixDrink()
+        {
+            throw new NotImplementedException();
+        }
     }
 }

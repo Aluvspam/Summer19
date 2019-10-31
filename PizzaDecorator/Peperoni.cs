@@ -14,6 +14,7 @@ namespace Curs15.Decorator
 
         public int GetCost()
         {
+            Console.WriteLine("nu numai ca ustura la buzunar dar ustura si in alte parti");
             if (Component != null)
             {
                 return cost + Component.GetCost();
