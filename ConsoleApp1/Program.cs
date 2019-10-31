@@ -11,6 +11,19 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+
+            Singleton s1 = Singleton.Instance;
+
+            Singleton s2 = Singleton.Instance;
+
+            Console.WriteLine((Object.ReferenceEquals(s1,s2)) ? "Same object" : "Different Object");
+
+            var add = new ConcreteStrategyAdd();
+            var mult = new ConcreteStrategyMultiplication();
+
+            add.AlgorithmInterface();
+            mult.AlgorithmInterface();
+
             var c = new CopyMy(new AltReader(), new Screen());
             c.Copy();
             var v = new Point();
