@@ -18,7 +18,11 @@ namespace Scoala
         }
         public void Freeze(AbstractAnimal animal)
         {
-            //TO DO: write code here to make the animal fly
+            animal.MoveStrategy = new FrozenMove();
+        }
+        public void WalkOnTwoLegs(AbstractAnimal animal)
+        {
+            animal.MoveStrategy = new MakeItWalkOnTwoLegs();
         }
     }
 }

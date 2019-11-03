@@ -61,6 +61,7 @@
     <Compile Include="IEngine.cs" />
     <Compile Include="IMoveStrategy.cs" />
     <Compile Include="InternalCombustionEngine.cs" />
+    <Compile Include="MakeItWalkOnTwoLegs.cs" />
     <Compile Include="Nationality.cs" />
     <Compile Include="RunLeg.cs" />
     <Compile Include="SporturiPracticate.cs" />
