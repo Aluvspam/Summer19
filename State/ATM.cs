@@ -6,7 +6,10 @@ namespace State
 {
     public class ATM
     {
-
+        public ATM()
+        {
+            current = new Idle();
+        }
 
         IState current;
         public void GoNext()
