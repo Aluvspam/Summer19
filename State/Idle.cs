@@ -8,7 +8,7 @@ namespace State
 
     {
 
-        void GoNext(ATM aparat1)
+        public void GoNext(ATM aparat1)
         {
             aparat1.SetState(new Client_Prezent());
         }
