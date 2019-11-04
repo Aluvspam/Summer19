@@ -11,13 +11,13 @@ namespace State
         IState current;
         public void GoNext()
         {
-
+            current.GoNext(this);
         }
+
         public void SetState(IState atmState)
         {
-           current.GoNext(this);
-            
         }
+        
     }
 }
 
