@@ -6,5 +6,9 @@ namespace State
 {
     class Thank_You
     {
+        void goNext(ATM aparat1)
+        {
+
+        }
     }
 }
