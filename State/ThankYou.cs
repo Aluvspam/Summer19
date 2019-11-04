@@ -6,9 +6,9 @@ namespace State
 {
     public class Thank_You : IState
     {
-        void GoNext(ATM aparat1)
+        public void GoNext(ATM aparat1)
         {
-
+            aparat1.SetState(new Idle());
         }
     }
 }
