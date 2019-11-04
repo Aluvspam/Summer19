@@ -9,7 +9,7 @@ public class George : IPlayer, IScore
 {
     string geo = "George";
     
-	public int Score
+	public int Score (score1 , score2)
 	{
         
         get
