@@ -4,7 +4,11 @@ using System.Text;
 
 namespace State
 {
-    class Client_Present
+    public class Client_Prezent
     {
+        void goNext(ATM aparat1)
+        {
+
+        }
     }
 }
