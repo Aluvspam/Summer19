@@ -6,7 +6,7 @@ namespace State
 {
     public class Thank_You : IState
     {
-        void goNext(ATM aparat1)
+        void GoNext(ATM aparat1)
         {
 
         }

@@ -6,6 +6,6 @@ namespace State
 {
     public interface IState
     {
-        
+        void GoNext(ATM aparat);
     }
 }
