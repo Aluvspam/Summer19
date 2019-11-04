@@ -4,7 +4,7 @@ using System.Text;
 
 namespace State
 {
-    interface IState
+    public interface IState
     {
         
     }
