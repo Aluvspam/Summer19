@@ -10,7 +10,7 @@ namespace State
 
         void goNext(ATM aparat1)
         {
-
+            aparat1.SetState(new Client_Prezent());
         }
     }
 }
