@@ -4,7 +4,7 @@ using System.Text;
 
 namespace State
 {
-    public class Thank_You
+    public class Thank_You : IState
     {
         void goNext(ATM aparat1)
         {
