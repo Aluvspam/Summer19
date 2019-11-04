@@ -4,7 +4,13 @@ using System.Text;
 
 namespace State
 {
-    class ATM
+    public class ATM
     {
+
+
+        ATM current;
+
+
     }
 }
+
