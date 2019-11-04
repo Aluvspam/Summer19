@@ -4,7 +4,7 @@ using System.Text;
 
 namespace State
 {
-    public interface IState
+    interface IState
     {
         void GoNext(ATM aparat);
     }
