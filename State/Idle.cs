@@ -4,7 +4,13 @@ using System.Text;
 
 namespace State
 {
-    class Idle
+    public class Idle : State
+
     {
+         void goNext(ATM aparat1)
+        {
+
+        }
+
     }
 }

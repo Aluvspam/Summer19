@@ -4,7 +4,8 @@ using System.Text;
 
 namespace State
 {
-    class State
+    public class State
     {
+
     }
 }
