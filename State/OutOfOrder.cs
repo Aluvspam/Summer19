@@ -4,7 +4,7 @@ using System.Text;
 
 namespace State
 {
-    class Out_of_Order
+    public class Out_of_Order
     {
     }
 }
