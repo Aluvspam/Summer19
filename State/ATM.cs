@@ -15,6 +15,7 @@ namespace State
         }
         public void SetState(IState atmState)
         {
+           current.GoNext(this);
             
         }
     }
