@@ -8,8 +8,15 @@ namespace State
     {
 
 
-        ATM current;
+        IState current;
+        public goNext()
+        {
 
+        }
+        public SetState()
+        {
+
+        }
 
     }
 }
