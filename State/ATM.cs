@@ -9,11 +9,11 @@ namespace State
 
 
         IState current;
-        public goNext()
+        public void goNext()
         {
 
         }
-        public SetState()
+        public void SetState()
         {
 
         }
