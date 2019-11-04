@@ -13,11 +13,10 @@ namespace State
         {
 
         }
-        public void SetState()
+        public void SetState(IState atmState)
         {
-
+            
         }
-
     }
 }
 

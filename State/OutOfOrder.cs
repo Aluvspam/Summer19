@@ -4,12 +4,7 @@ using System.Text;
 
 namespace State
 {
-    class Out_of_Order: IState
+    public class Out_of_Order
     {
-
-        public void GoNext(ATM aparat)
-        {
-            aparat.SetState(new Idle());
-        }
     }
 }
