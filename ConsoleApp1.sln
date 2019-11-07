@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29418.71
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{D243B367-E1C6-4DCE-962E-46855241A749}"
 EndProject
@@ -11,7 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TFT", "TFT\TFT.csproj", "{5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaDecorator", "PizzaDecorator\PizzaDecorator.csproj", "{5F99B093-C0FC-45A5-95E7-832E2FC937C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "State", "State\State.csproj", "{9E19B4A7-88E1-4722-A7E9-ADF27D86E716}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "State", "State\State.csproj", "{9E19B4A7-88E1-4722-A7E9-ADF27D86E716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChainOR", "ChainOR\ChainOR.csproj", "{35428827-9C87-405B-83F5-5F0FA9E5EFDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{9E19B4A7-88E1-4722-A7E9-ADF27D86E716}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E19B4A7-88E1-4722-A7E9-ADF27D86E716}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E19B4A7-88E1-4722-A7E9-ADF27D86E716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35428827-9C87-405B-83F5-5F0FA9E5EFDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35428827-9C87-405B-83F5-5F0FA9E5EFDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35428827-9C87-405B-83F5-5F0FA9E5EFDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35428827-9C87-405B-83F5-5F0FA9E5EFDD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
