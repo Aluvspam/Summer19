@@ -10,7 +10,8 @@ namespace ChainOR
     {
         static void Run()
         {
-
+            Handlers.Instance.AddHandle(new HAnd());
+            Handlers.Instance.GetNextHandler().Handle(new Message() { Text = "dublu vizor", Language = 'A' });
         }
     }
 }
