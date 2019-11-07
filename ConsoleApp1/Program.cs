@@ -11,12 +11,12 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-
+            ChainOR.RunExample.Run();
             AwesomeSingleton s10 = AwesomeSingleton.Instance;
 
             AwesomeSingleton s20 = AwesomeSingleton.Instance;
 
-            Console.WriteLine((Object.ReferenceEquals(s10,s20)) ? "Same object" : "Different Object");
+            Console.WriteLine((Object.ReferenceEquals(s10, s20)) ? "Same object" : "Different Object");
 
             var add = new ConcreteStrategyAdd();
             var mult = new ConcreteStrategyMultiplication();

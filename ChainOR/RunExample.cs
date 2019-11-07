@@ -8,10 +8,11 @@ namespace ChainOR
 {
     public class RunExample
     {
-        static void Run()
+        public static void Run()
         {
             Handlers.Instance.AddHandle(new HAnd());
             Handlers.Instance.GetNextHandler().Handle(new Message() { Text = "dublu vizor", Language = 'A' });
+            Console.ReadLine();
         }
     }
 }
