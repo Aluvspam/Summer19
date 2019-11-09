@@ -13,8 +13,17 @@ namespace Scoala
         public double Consumption;
         int currentPower;
 
-        public int CurrentPower { get; private set; }
-
+        public int CurrentPower
+        {
+            get
+            {
+                return currentPower;
+            }
+            private set
+            {
+                currentPower = value;
+            }
+        }
         public virtual void NewPower(int newPower)
         {
             CurrentPower = newPower;
