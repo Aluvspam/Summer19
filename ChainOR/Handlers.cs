@@ -34,5 +34,9 @@ namespace ChainOR
             index++;
             return index > handlers.Count ? null : handlers[index - 1];
         }
+        public void ResetHandlersIndex()
+        {
+            index = 0;
+        }
     }
 }
