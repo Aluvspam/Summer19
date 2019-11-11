@@ -11,20 +11,16 @@ namespace ChainOR
         char language = 'S';
         public override void Handle(Message message)
         {
-            if (message.Language==language)
+            if (message.Language == language)
 
             {
-                Console.WriteLine( "Ich versuch das zu verstehen" + message.Text);
+                Console.WriteLine("Ich versuch das zu verstehen" + message.Text);
             }
             else
             {
                 Handlers.Instance.GetNextHandler().Handle(message);
             }
-
-            throw new NotImplementedException();
         }
-
     }
-    
-    }
+}
 
