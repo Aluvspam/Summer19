@@ -11,3 +11,4 @@ namespace ChainOR
         public abstract void Handle(Message message);
     }
 }
+
