@@ -44,6 +44,7 @@
     <Compile Include="AbstractHandle.cs" />
     <Compile Include="HAnd.cs" />
     <Compile Include="Handlers.cs" />
+    <Compile Include="HandMar.cs" />
     <Compile Include="HandS.cs" />
     <Compile Include="Message.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
