@@ -10,8 +10,7 @@ namespace Scoala
     {
         public static void Main()
         {
-            ExAction obiect = new ExAction();
-            obiect.RunExample();
+
             var oAdresa = new Address() { Town = "Bucale", StreetAddress1 = "MihaiEminescu nr. 21", StreetAddress2 = "Etaj 7, room 704" };
             var studentul = new Student("Costin", 27, oAdresa, Sex.Male, Curs.Intermediari, 1);
             var curs = new List<Curs>(2);
@@ -26,11 +25,13 @@ namespace Scoala
             myNotebook.Add(studentul);
             myNotebook.Add(teacher);
             myNotebook.Add(new Beggar("Cersetorul", 13, new Address(), Sex.Male));
+            List<Action> Pasi = new List<Action>();
             foreach (var notebookEntry in myNotebook)
             {
                 Console.WriteLine(notebookEntry);
                 Console.Write("let's try special actions - ");
                 notebookEntry.SpecialAction();
+                Pasi.Add(notebookEntry.SpecialAction);
                 if (notebookEntry is Teacher)
                 {
                     Console.Write("this one is a teacher do more ");
@@ -43,6 +44,8 @@ namespace Scoala
                     acesta.Study();
                 }
             }
+            ExAction obiect = new ExAction(Pasi);
+            obiect.RunExample();
             //TO DO: Create a teacher and add it to agenda - Marian
 
 
