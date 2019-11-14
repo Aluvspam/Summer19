@@ -52,6 +52,7 @@
     <Compile Include="Dog.cs" />
     <Compile Include="Electric Engine.cs" />
     <Compile Include="Engine.cs" />
+    <Compile Include="ExAction.cs" />
     <Compile Include="ExampleFolder\TestE.cs" />
     <Compile Include="Fish.cs" />
     <Compile Include="FrozenMove.cs" />

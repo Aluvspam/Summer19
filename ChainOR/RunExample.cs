@@ -12,10 +12,21 @@ namespace ChainOR
         {
             Handlers.Instance.AddHandle(new HAnd());
             Handlers.Instance.AddHandle(new HandS());
-            Handlers.Instance.GetNextHandler().Handle(new Message() { Text = "dublu vizor", Language = 'A' });
-            Handlers.Instance.ResetHandlersIndex();
-            Handlers.Instance.GetNextHandler().Handle(new Message() { Text = "Silvius language msg", Language = 'S' });
+            Handlers.Instance.AddHandle(new HandMar());
+            Handlers.Instance.AddHandle(new UHand());
+            var msg = new Message() { Text = "dublu vizor", Language = 'A' };
+            Handle(msg);
+            msg.Language = 'M';
+            Handle(msg);
+            msg.Language = 'S';
+            Handle(msg);
+            Handle(new Message() { Text = "Silvius language msg", Language = 'S' });
             Console.ReadLine();
+        }
+        static void Handle(Message msg)
+        {
+            Handlers.Instance.ResetHandlersIndex();
+            Handlers.Instance.GetNextHandler().Handle(msg);
         }
     }
 }
