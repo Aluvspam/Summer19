@@ -8,6 +8,7 @@ namespace EventsAndDelegates
 {
     public delegate void AndreisDelegate(int x);
     public delegate int Sum2(int a, int b);
+    public delegate int Multiply(int a, int b, int c);
     public class ExampleEvent
     {
         private ExampleEvent()
@@ -34,6 +35,10 @@ namespace EventsAndDelegates
             // exemplu metoda anonima
             Sum2 SumaMea = (int a, int b) => { return a + b; };
             Console.WriteLine(SumaMea(3, 7));
+
+            Multiply MultiplyGeo = (int a, int b, int c) => {return a * b * c;};
+            Console.WriteLine(MultiplyGeo(23,11,10));
+
 
             ExamplesEventsAndDelegates.AltaMetoda();
             Console.ReadLine();
