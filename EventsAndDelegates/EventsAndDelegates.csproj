@@ -48,6 +48,7 @@
     <Compile Include="Afisaj2.cs" />
     <Compile Include="AndreisArgs.cs" />
     <Compile Include="MeteoStation.cs" />
+    <Compile Include="NewClass1.cs" />
     <Compile Include="ProfusDelegate.cs" />
     <Compile Include="EventSubscriber.cs" />
     <Compile Include="ExampleEvent.cs" />
