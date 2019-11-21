@@ -11,7 +11,7 @@ namespace EventsAndDelegates
         public Afisaj3G()
         {
             Update = AfisareG;
-            Abondare();
+            Abonare();
         }
         public void AfisareG(int x)
         {

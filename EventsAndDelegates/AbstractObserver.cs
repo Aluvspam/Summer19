@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EventsAndDelegates
 {
-    class AbstractObserver
+    public class AbstractObserver
     {
         public AndreisDelegate Update;
         public virtual void Abonare()
