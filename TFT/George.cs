@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Threading;
-
+/*
 public class George : IPlayer, IScore
 {
     string geo = "George";
@@ -48,3 +48,4 @@ public class George : IPlayer, IScore
         
 	}
 }
+*/

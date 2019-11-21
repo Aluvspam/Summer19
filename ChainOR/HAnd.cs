@@ -21,4 +21,25 @@ namespace ChainOR
             }
         }
     }
+
+    public class UHand : AbstractHandle
+    {
+        //char language = 'A';
+        char[] languages = new char[] { 'A', 'S', 'M' };
+        public override void Handle(Message message)
+        {
+            if (CanHandle(message))
+            {
+                Console.WriteLine("Eu, Universal ASM  can handle this message: " + message.Text + ", language is " + message.Language);
+            }
+            else
+            {
+                Handlers.Instance.GetNextHandler().Handle(message);
+            }
+        }
+        bool CanHandle(Message msg)
+        {
+            return languages.Contains(msg.Language);
+        }
+    }
 }

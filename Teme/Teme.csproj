@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{3B9EAF09-A51B-4DF2-8B97-48488F8B511C}</ProjectGuid>
+    <ProjectGuid>{75DE4FDA-FBBF-4132-963C-D1C231EF7E11}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Scoala</RootNamespace>
-    <AssemblyName>Scoala</AssemblyName>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Teme</RootNamespace>
+    <AssemblyName>Teme</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-    <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -43,44 +43,38 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Address.cs" />
-    <Compile Include="AbstractAnimal.cs" />
-    <Compile Include="Beggar.cs" />
-    <Compile Include="Cat.cs" />
-    <Compile Include="Bird.cs" />
-    <Compile Include="Diesel Engine.cs" />
-    <Compile Include="Dog.cs" />
-    <Compile Include="Electric Engine.cs" />
-    <Compile Include="Engine.cs" />
-    <Compile Include="ExAction.cs" />
-    <Compile Include="ExampleFolder\TestE.cs" />
-    <Compile Include="Fish.cs" />
-    <Compile Include="FrozenMove.cs" />
-    <Compile Include="Fly.cs" />
-    <Compile Include="Gas Engine.cs" />
-    <Compile Include="IAnimal.cs" />
-    <Compile Include="IEngine.cs" />
-    <Compile Include="IMoveStrategy.cs" />
-    <Compile Include="InternalCombustionEngine.cs" />
-    <Compile Include="MakeItWalkOnTwoLegs.cs" />
-    <Compile Include="Nationality.cs" />
-    <Compile Include="problema33.cs" />
-    <Compile Include="RunLeg.cs" />
-    <Compile Include="SporturiPracticate.cs" />
-    <Compile Include="SteamEngine.cs" />
-    <Compile Include="Student.cs" />
-    <Compile Include="Curs.cs" />
-    <Compile Include="Person.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="AbstractTopping.cs" />
+    <Compile Include="George.cs" />
+    <Compile Include="Factorial.cs" />
+    <Compile Include="IDrink.cs" />
+    <Compile Include="IPizza.cs" />
+    <Compile Include="Mozzarella.cs" />
+    <Compile Include="Peperoni.cs" />
+    <Compile Include="RunExamples.cs" />
+    <Compile Include="Shrooms.cs" />
+    <Compile Include="TemaRunExamples.cs" />
+    <Compile Include="TemeMain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Sex.cs" />
-    <Compile Include="Swim.cs" />
-    <Compile Include="Teacher.cs" />
-    <Compile Include="Telefon.cs" />
-    <Compile Include="Wizard.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Patterns\Patterns.csproj">
+      <Project>{dbdae864-fe04-4e3a-9f11-a9b5eccf71b5}</Project>
+      <Name>Patterns</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StateProject\StateProject.csproj">
+      <Project>{07e4e40a-df73-45fa-9f30-bd65a049cd8f}</Project>
+      <Name>StateProject</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
 </Project>
