@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Game.cs" />
+    <Compile Include="GeoPlayer.cs" />
     <Compile Include="George.cs" />
     <Compile Include="Ids.cs" />
     <Compile Include="IPlayer.cs" />
