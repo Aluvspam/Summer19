@@ -130,7 +130,6 @@ namespace TFT
                 //aLogger.Log("error message: " + e.Message + ";source: " + e.Source);
                 r = Moves.B;//solutie de avarie
             }
-
             catch (IndexOutOfRangeException)
             {
                 Console.WriteLine("atentie la index!!!");
@@ -143,7 +142,6 @@ namespace TFT
                 //logger.Warn("error message: " + e.Message + ";source: " + e.Source);
                 r = Moves.B;
             }
-
             catch (TimeoutException)
             {
                 Console.WriteLine("(Dana) Timpul tau a expirat :) Exceptia de mai jos le-a prins deja pe toate.");
@@ -155,8 +153,6 @@ namespace TFT
                 //logger.Warn("error message: " + e.Message + ";source: " + e.Source);
                 r = Moves.B;//solutie de avarie
             }
-
-
             return r;
         }
         //added GetMove() method

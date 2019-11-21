@@ -10,7 +10,15 @@ namespace Scoala
     {
         public static void Main()
         {
-
+            var myobj = new ExampleEx();
+            try
+            {
+                myobj.Run();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("eroare prinsa in Main");
+            }
             var oAdresa = new Address() { Town = "Bucale", StreetAddress1 = "MihaiEminescu nr. 21", StreetAddress2 = "Etaj 7, room 704" };
             var studentul = new Student("Costin", 27, oAdresa, Sex.Male, Curs.Intermediari, 1);
             var curs = new List<Curs>(2);
