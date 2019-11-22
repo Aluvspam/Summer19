@@ -53,6 +53,7 @@
     <Compile Include="Electric Engine.cs" />
     <Compile Include="Engine.cs" />
     <Compile Include="ExAction.cs" />
+    <Compile Include="ExampleEx.cs" />
     <Compile Include="ExampleFolder\TestE.cs" />
     <Compile Include="Fish.cs" />
     <Compile Include="FrozenMove.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="InternalCombustionEngine.cs" />
     <Compile Include="MakeItWalkOnTwoLegs.cs" />
     <Compile Include="Nationality.cs" />
+    <Compile Include="problema33.cs" />
     <Compile Include="RunLeg.cs" />
     <Compile Include="SporturiPracticate.cs" />
     <Compile Include="SteamEngine.cs" />
