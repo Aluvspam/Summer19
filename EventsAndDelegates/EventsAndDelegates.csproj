@@ -48,6 +48,7 @@
     <Compile Include="Afisaj2.cs" />
     <Compile Include="Afisaj3G.cs" />
     <Compile Include="Afisaj4G.cs" />
+    <Compile Include="Afisare6M.cs" />
     <Compile Include="AndreisArgs.cs" />
     <Compile Include="MeteoStation.cs" />
     <Compile Include="ProfusDelegate.cs" />
