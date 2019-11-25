@@ -51,12 +51,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Costin.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GeoPlayer.cs" />
     <Compile Include="George.cs" />
     <Compile Include="Ids.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="IScore.cs" />
+    <Compile Include="MarPlayer.cs" />
     <Compile Include="Moves.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
