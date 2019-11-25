@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TFT
 {
-    public class MarPlayer: IPlayer , IScore
+    /*public class MarPlayer: IPlayer , IScore
     { 
         public int ScoreMar
         {
@@ -37,5 +37,5 @@ namespace TFT
             }
         }
         
-    }
+    }*/
 }
