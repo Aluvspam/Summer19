@@ -8,6 +8,21 @@ namespace TFT
 {
     public class Playersilviu : IPlayer
     {
-
+        Random mutareintamplare = new Random();
+        public Moves FirstMove()
+        {
+            return RandomMove();
+        }
+        public Moves RandomMove()
+        {
+            if (mutareintamplare.Next(2) == 0)
+            {
+                return Moves.D;
+            }
+            else
+            {
+                return Moves.C;
+            }
+        }
     }
 }
