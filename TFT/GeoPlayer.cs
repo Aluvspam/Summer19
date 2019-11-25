@@ -16,7 +16,7 @@ namespace TFT
             }
          }
         
-        Moves MyMove(Moves myLastMove, Moves othersLastMove)
+        public Moves MyMove(Moves myLastMove, Moves othersLastMove)
         {
             
             while (GeoPlayer == player1)
@@ -52,7 +52,7 @@ namespace TFT
             }
             
         }
-        Moves FirstMove()
+        public Moves FirstMove()
         {
             if (GeoPlayer == player1)
 	        {

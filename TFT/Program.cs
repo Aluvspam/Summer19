@@ -36,14 +36,16 @@ namespace TFT
             //{
             //    excelAvailable = true;
             //}
-            //IPlayer cristi = new CristiPlayer();
+            IPlayer geoege = new GeoPlayer();
             IPlayer random = new RandomPlayer2();
+            IPlayer marian = new MarPlayer();
             //IPlayer ovidiu = new ClassPlayerOvidiu();
             //IPlayer liviu = new LiviuPlayer();
             //var game = new Game(cristi2, boss);
             //var var = boss.GetType().ToString();
-            //players.Add(cristi);
-            //players.Add(ovidiu);
+            players.Add(random);
+            players.Add(marian);
+            players.Add(geoege);
             //logger.Trace("trace line before creating players List");
             players = new List<IPlayer> { };
             newPlayers = new List<IPlayer>();
