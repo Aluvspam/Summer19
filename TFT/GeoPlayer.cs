@@ -13,15 +13,15 @@ namespace TFT
                        	        
 	         if (othersLastMove == Moves.B)	
              {
-                return myLastMove = Moves.D;
+                return Moves.D;
              }
              else if (othersLastMove == Moves.C)
 	         {
-                return myLastMove = Moves.D;
+                return Moves.D;
 	         }
              else
 	         {
-                return myLastMove = Moves.D;
+                return Moves.D;
 	         } 	                               
         }
         public Moves FirstMove()
