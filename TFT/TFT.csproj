@@ -60,6 +60,7 @@
     <Compile Include="IScore.cs" />
     <Compile Include="MarPlayer.cs" />
     <Compile Include="Moves.cs" />
+    <Compile Include="playersilviu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="random2.cs" />

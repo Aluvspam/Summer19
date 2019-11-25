@@ -13,6 +13,12 @@ namespace TFT
         {
             return RandomMove();
         }
+
+        public Moves MyMove(Moves myLastMove, Moves othersLastMove)
+        {
+            throw new NotImplementedException();
+        }
+
         public Moves RandomMove()
         {
             if (mutareintamplare.Next(2) == 0)
