@@ -21,16 +21,48 @@ namespace TFT
         {
             return Moves.D;
         }
-
-
-        public Moves MyMove(Moves m1, Moves m2)
+        public void ScoreGame(Moves m1, Moves m2)
         {
-            var rnd = new Random();
-            return (Moves)rnd.Next(Enum.GetNames(typeof(Moves)).Length);
+            if (m1 == Moves.D & m2 == Moves.B)
+            { Score += 3; }
+
+            else if (m1 == Moves.D & m2 == Moves.C)
+            {
+                Score += 4;
+            }
+
+            else if (m1 == Moves.D & m2 == Moves.D)
+            { Score += 2; }
+
+            else if (m1 == Moves.B & m2 == Moves.B)
+            { Score += 0; }
+
+            else if (m1 == Moves.B & m2 == Moves.C)
+            {
+                Score += 0;
+            }
+            else if (m1 == Moves.B & m2 == Moves.D)
+            { Score += 0; }
+
+            else if (m1 == Moves.C & m2 == Moves.B)
+            { Score += 0; }
+
+            else if (m1 == Moves.C & m2 == Moves.C)
+            {
+                Score += 0;
+            }
+            else if (m1 == Moves.C & m2 == Moves.D)
+            { Score += 0; }
         }
 
-
+    public Moves MyMove(Moves m1, Moves m2)
+    {
+        ScoreGame(m1, m2);
+        var rnd = new Random();
+        return (Moves)rnd.Next(Enum.GetNames(typeof(Moves)).Length);
     }
+
+}
 
 
 }
