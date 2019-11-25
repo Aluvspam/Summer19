@@ -6,11 +6,11 @@ using System.Threading.Tasks;
 
 namespace TFT
 {
-    /*public class MarPlayer: IPlayer , IScore
-    { 
-        public int ScoreMar
+    public class MarPlayer : IPlayer, IScore
+    {
+        public int Score
         {
-            //Score scoreMAr;Score score2;
+
             get { return 0; }
         }
         Random mar;
@@ -18,24 +18,27 @@ namespace TFT
         {
             mar = new Random();
         }
-        public Moves MarMove1(Moves MarFirstMove, Moves MarLastMove)
+        public Moves FirstMove()
         {
-            return 'D';
+            return Moves.D;
         }
-        public Moves MarMove()
+        public Moves MyMove(Moves MyLastMove, Moves OthersLastMove)
         {
-            if(mar.Next(2)==0)
+            return MarMove();
+        }
+        private Moves MarMove()
+        {
+            int i = 0;
+            if (i % 3 != 0)
             {
-                if (scoreMar < score2)
-                {
-                    return 'C';
-                }
-                else
-                {
-                    return 'D';
-                }
+                return Moves.D;
             }
+            else
+            {
+                return Moves.C;
+            }
+
         }
-        
-    }*/
+    }
+
 }

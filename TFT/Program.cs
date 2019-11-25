@@ -43,6 +43,7 @@ namespace TFT
             IPlayer smc = new SmartCostin();
             IPlayer costin = new Costin();
             IPlayer silviu = new Playersilviu();
+            IPlayer mar = new MarPlayer();
             //IPlayer ovidiu = new ClassPlayerOvidiu();
             //IPlayer liviu = new LiviuPlayer();
             //var game = new Game(cristi2, boss);
@@ -52,6 +53,7 @@ namespace TFT
             players.Add(geoege);
             players.Add(costin);
             players.Add(silviu);
+            players.Add(mar);
 
             //logger.Trace("trace line before creating players List");
             //players = new List<IPlayer> { };

@@ -11,7 +11,14 @@ namespace TFT
         Random mutareintamplare = new Random();
         public Moves FirstMove()
         {
-            return FirstMove();
+            if (mutareintamplare.Next(2) == 0)
+            {
+                return Moves.D;
+            }
+            else
+            {
+                return Moves.C;
+            }
         }
 
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
@@ -24,9 +31,6 @@ namespace TFT
             {
                 return Moves.C;
             }
-
-
-
         }
     }
 }
