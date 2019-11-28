@@ -11,6 +11,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            ExampleThreads.Run();
+            Console.ReadLine();
             ChainOR.RunExample.Run();
             AwesomeSingleton s10 = AwesomeSingleton.Instance;
 

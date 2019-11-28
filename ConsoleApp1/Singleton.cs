@@ -9,7 +9,7 @@ namespace ConsoleApp1
     public class Singleton
     {
         static Singleton instance;
-        static Object lacat;
+        static Object lacat = new object();
         public static Singleton Instance
         {
             get
