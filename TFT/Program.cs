@@ -44,17 +44,20 @@ namespace TFT
             IPlayer costin = new Costin();
             IPlayer silviu = new Playersilviu();
             IPlayer mar = new MarPlayer();
+            IPlayer dp = new DanielPlayer2();
+            IPlayer g2 = new GeoPlayer2();
             //IPlayer ovidiu = new ClassPlayerOvidiu();
             //IPlayer liviu = new LiviuPlayer();
             //var game = new Game(cristi2, boss);
             //var var = boss.GetType().ToString();
-            players.Add(random);
+            //players.Add(random);
             players.Add(smc);
             players.Add(geoege);
             players.Add(costin);
             players.Add(silviu);
             players.Add(mar);
-
+            players.Add(dp);
+            players.Add(g2);
             //logger.Trace("trace line before creating players List");
             //players = new List<IPlayer> { };
             //newPlayers = new List<IPlayer>();

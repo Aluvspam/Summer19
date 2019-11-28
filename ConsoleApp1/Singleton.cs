@@ -9,14 +9,21 @@ namespace ConsoleApp1
     public class Singleton
     {
         static Singleton instance;
+        static Object lacat;
         public static Singleton Instance
         {
             get
             {
                 if (instance == null)
                 {
-                    instance = new Singleton();
-                    Console.WriteLine("just created new instance");
+                    lock (lacat)
+                    {
+                        if (instance == null)
+                        {
+                            instance = new Singleton();
+                            Console.WriteLine("just created new instance");
+                        }
+                    }
                 }
                 Console.WriteLine("returning instance");
                 return instance;

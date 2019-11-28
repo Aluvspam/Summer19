@@ -51,6 +51,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DanielPlayer2.cs" />
     <Compile Include="GeoPlayer2.cs" />
     <Compile Include="SmartCostin.cs" />
     <Compile Include="Costin.cs" />
