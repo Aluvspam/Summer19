@@ -51,11 +51,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="GeoPlayer2.cs" />
     <Compile Include="SmartCostin.cs" />
     <Compile Include="Costin.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="GeoPlayer.cs" />
-    <Compile Include="George.cs" />
     <Compile Include="Ids.cs" />
     <Compile Include="IPlayer.cs" />
     <Compile Include="IScore.cs" />

@@ -6,15 +6,24 @@ using System.Threading.Tasks;
 
 namespace TFT
 {
-    public class GeoPlayer : IPlayer
+    public class GeoPlayer2 : IPlayer
     {
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
         {
-            return Moves.D;
+
+            if (othersLastMove == Moves.B)
+            {
+                return Moves.C;
+            }           
+            else
+            {
+                return Moves.D;
+            }
         }
         public Moves FirstMove()
         {
-            return Moves.C;
+            return Moves.D;
         }
     }
+}
 }
