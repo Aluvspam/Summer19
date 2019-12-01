@@ -6,32 +6,31 @@ using System.Threading.Tasks;
 
 namespace TFT
 {
-    public class MarPlayer : IPlayer
+    public class MarPlayer2 : IPlayer
     {
-        private List<IPlayer> juc = new List<IPlayer>();
-        readonly MarPlayer2 mm = new MarPlayer2();
-        
 
+        Random a =new Random();
         public Moves FirstMove()
         {
             return Moves.D;
         }
         public Moves MyMove(Moves MyLastMove, Moves OthersLastMove)
         {
-            return MarMove();
+            return MarMove2();
         }
-
-        private Moves MarMove()
+        private Moves MarMove2()
         {
-            if (juc.Contains(mm))
-                {
-                    return Moves.B;
-                }
-                else
+            
+                if (a.Next()%3!=0)
                 {
                     return Moves.D;
                 }
+                else
+                {
+                    return Moves.C;
+                }
+           
         }
-
     }
+
 }
