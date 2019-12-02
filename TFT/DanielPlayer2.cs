@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TFT
 {
-    class DanielPlayer2 : IPlayer
+    public class DanielPlayer2 : IPlayer
     {
         public Moves FirstMove()
         {

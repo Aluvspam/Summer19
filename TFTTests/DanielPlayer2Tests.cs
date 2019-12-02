@@ -9,14 +9,13 @@ using System.Threading.Tasks;
 namespace TFT.Tests
 {
     [TestClass()]
-    public class SmartCostinTests
+    public class DanielPlayer2Tests
     {
         [TestMethod()]
-        public void ScoreGameTest()
+        public void FirstMoveTest()
         {
-            var player = new Costin();
-            player.ScoreGame(Moves.C, Moves.C);
-            Assert.AreEqual(3, player.Score);
+            var player = new DanielPlayer2();
+            Assert.AreNotEqual(Moves.B, player.FirstMove());
         }
     }
 }
