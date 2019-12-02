@@ -60,7 +60,7 @@ namespace TFT
             players.Add(smc);
             players.Add(geoege);
             players.Add(costin);
-            players.Add(silviu);
+            //players.Add(silviu);
             players.Add(mar);
             players.Add(mar2);
             players.Add(dp);
