@@ -28,5 +28,6 @@ namespace ConsoleApp1.Tests
         {
             Assert.AreNotEqual(4, TestObj.Impart(6, 2));
         }
+        }       
     }
 }
