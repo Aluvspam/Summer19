@@ -55,6 +55,7 @@
     <Compile Include="GeoPHelper.cs" />
     <Compile Include="GeoPHelper2.cs" />
     <Compile Include="GeoPlayer2.cs" />
+    <Compile Include="MarPlayer2.cs" />
     <Compile Include="SmartCostin.cs" />
     <Compile Include="Costin.cs" />
     <Compile Include="Game.cs" />

@@ -47,6 +47,7 @@ namespace TFT
             IPlayer costin = new Costin();
             IPlayer silviu = new Playersilviu();
             IPlayer mar = new MarPlayer();
+            IPlayer mar2 = new MarPlayer2();
             IPlayer dp = new DanielPlayer2();
             IPlayer g2 = new GeoPlayer2();
             //IPlayer ovidiu = new ClassPlayerOvidiu();
@@ -61,6 +62,7 @@ namespace TFT
             players.Add(costin);
             players.Add(silviu);
             players.Add(mar);
+            players.Add(mar2);
             players.Add(dp);
             players.Add(g2);
             //logger.Trace("trace line before creating players List");
