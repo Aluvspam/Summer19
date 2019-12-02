@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Teme
 {
-   public class fibon
+   public class Fibon
     {
         public double Fib(int n)
         {

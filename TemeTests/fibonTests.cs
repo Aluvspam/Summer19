@@ -15,8 +15,8 @@ namespace Teme.Tests
         public void FibTest()
 
         {
-            fibon a = new fibon();
-            Assert.AreEqual(6,4);
+            var testfib = new fibon();
+            Assert.AreEqual(6,testfib.fibon(4));
         }
     }
 }
