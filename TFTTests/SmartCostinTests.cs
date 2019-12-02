@@ -14,7 +14,9 @@ namespace TFT.Tests
         [TestMethod()]
         public void ScoreGameTest()
         {
-            Assert.Fail();
+            var player = new Costin();
+            player.ScoreGame(Moves.C, Moves.C);
+            Assert.AreEqual(3, player.Score);
         }
     }
 }
