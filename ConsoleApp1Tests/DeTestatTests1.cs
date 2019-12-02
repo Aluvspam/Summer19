@@ -9,19 +9,13 @@ using System.Threading.Tasks;
 namespace ConsoleApp1.Tests
 {
     [TestClass()]
-    public class DeTestatTests
+    public class DeTestatTests1
     {
         DeTestat TestObj = new DeTestat();
-        [TestMethod()]
-        public void SumaTest()
+        [TestMethod()]        
+        public void ImpartireTest()
         {
-            Assert.AreEqual(47, TestObj.Suma(3, 44));
+            Assert.AreNotEqual(50, TestObj.Impartire(100, 4));
         }
-
-        [TestMethod()]
-        public void ProdusTest()
-        {
-            Assert.AreEqual(98, TestObj.Produs(7, 14));
-        }       
     }
 }

@@ -21,5 +21,10 @@ namespace ConsoleApp1
             return a * b;
         }
 
+        public int Impartire(int a, int b)
+        {
+            return a / b;
+        }
+
     }
 }
