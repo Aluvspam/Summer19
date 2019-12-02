@@ -11,6 +11,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
+            int[] data = new int[12] { 12, -1, 4, 100, 9, 7, 160, 16, 8, 9, 36, 25 };
+            QuickSortRecursion.IntArrayQuickSort(data, 0, 11);
+            Console.WriteLine(data);
+            Console.WriteLine("/////////////");
             ExampleThreads.Run();
             Console.ReadLine();
             ChainOR.RunExample.Run();

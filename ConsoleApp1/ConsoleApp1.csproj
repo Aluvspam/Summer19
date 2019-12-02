@@ -67,6 +67,7 @@
     <Compile Include="Point.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="QuickSortRecursion.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="SingletonNou.cs" />
   </ItemGroup>

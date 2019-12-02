@@ -24,6 +24,7 @@ namespace TFT
         #endregion
         static void Main(string[] args)
         {
+   
             players = new List<IPlayer>();
             newPlayers = new List<IPlayer>();
             RunTFT();
@@ -38,8 +39,10 @@ namespace TFT
             //{
             //    excelAvailable = true;
             //}
+            IPlayer geoPHelper = new GeoPHelper();
+            IPlayer geoPHelper2 = new GeoPHelper2();
             IPlayer geoege = new GeoPlayer();
-            IPlayer random = new RandomPlayer2();
+            //IPlayer random = new RandomPlayer2();
             IPlayer smc = new SmartCostin();
             IPlayer costin = new Costin();
             IPlayer silviu = new Playersilviu();
@@ -51,6 +54,8 @@ namespace TFT
             //var game = new Game(cristi2, boss);
             //var var = boss.GetType().ToString();
             //players.Add(random);
+            players.Add(geoPHelper);
+            players.Add(geoPHelper2);
             players.Add(smc);
             players.Add(geoege);
             players.Add(costin);
@@ -59,8 +64,9 @@ namespace TFT
             players.Add(dp);
             players.Add(g2);
             //logger.Trace("trace line before creating players List");
-            //players = new List<IPlayer> { };
+            //players = new List<IPlayer>() { };
             //newPlayers = new List<IPlayer>();
+
 
             var r = new Random();
             while (players.Count > 0)
