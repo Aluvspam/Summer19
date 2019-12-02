@@ -23,5 +23,10 @@ namespace ConsoleApp1.Tests
         {
             Assert.AreEqual(98, TestObj.Produs(7, 14));
         }
+        [TestMethod()]
+        public void Impart()
+        {
+            Assert.AreNotEqual(4, TestObj.Impart(6, 2));
+        }
     }
 }
