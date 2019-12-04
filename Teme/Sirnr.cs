@@ -6,14 +6,13 @@ using System.Threading.Tasks;
 
 namespace Teme
 {
-   public class Fibon
+   public class SirNr
     {
-        public double Fib(int n)
+        public int Sirnr(int n)
         {
-            if (n == 0)
-                return 0;
-            double rez = n + Fib(n - 1);
-            return rez;
+            
+            int sum = n + Sirnr(n - 1);
+            return sum;
 
         }
     }

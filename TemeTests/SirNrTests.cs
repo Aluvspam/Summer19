@@ -9,14 +9,14 @@ using System.Threading.Tasks;
 namespace Teme.Tests
 {
     [TestClass()]
-    public class fibonTests
+    public class SirNrTests
     {
         [TestMethod()]
-        public void FibTest()
+        public void SirNrTest()
 
         {
-            var testfib = new fibon();
-            Assert.AreEqual(6,testfib.fibon(4));
+            var testfib = new SirNr();
+            Assert.AreEqual(10,testfib.Sirnr(4));
         }
     }
 }
