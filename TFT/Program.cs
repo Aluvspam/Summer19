@@ -42,7 +42,7 @@ namespace TFT
             IPlayer geoPHelper = new GeoPHelper();
             IPlayer geoPHelper2 = new GeoPHelper2();
             IPlayer geoege = new GeoPlayer();
-            //IPlayer random = new RandomPlayer2();
+            IPlayer random = new RandomPlayer2();
             IPlayer smc = new SmartCostin();
             IPlayer costin = new Costin();
             IPlayer silviu = new Playersilviu();

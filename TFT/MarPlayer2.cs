@@ -12,25 +12,18 @@ namespace TFT
         Random a =new Random();
         public Moves FirstMove()
         {
-            return Moves.D;
+            return Moves.B;
         }
         public Moves MyMove(Moves MyLastMove, Moves OthersLastMove)
         {
-            return MarMove2();
-        }
-        private Moves MarMove2()
-        {
-            
-                if (a.Next()%3!=0)
-                {
-                    return Moves.D;
-                }
-                else
-                {
-                    return Moves.C;
-                }
            
-        }
+            if ((MyLastMove==Moves.B)&(OthersLastMove==Moves.C))
+            {
+                return Moves.B;
+                }
+            else{ return Moves.D;}
+            
+        }}
     }
 
-}
+
