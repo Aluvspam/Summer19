@@ -24,7 +24,7 @@ namespace TFT
         #endregion
         static void Main(string[] args)
         {
-   
+
             players = new List<IPlayer>();
             newPlayers = new List<IPlayer>();
             RunTFT();
@@ -50,19 +50,20 @@ namespace TFT
             IPlayer mar2 = new MarPlayer2();
             IPlayer dp = new DanielPlayer2();
             IPlayer g2 = new GeoPlayer2();
-            //IPlayer ovidiu = new ClassPlayerOvidiu();
+            IPlayer diana = new DianaPlayer();
             //IPlayer liviu = new LiviuPlayer();
             //var game = new Game(cristi2, boss);
             //var var = boss.GetType().ToString();
             //players.Add(random);
-            players.Add(geoPHelper);   
-            players.Add(smc);            
-            players.Add(costin);
+            players.Add(geoPHelper);
+            players.Add(smc);
+            //players.Add(costin);
             ////players.Add(silviu);
             players.Add(mar);
             players.Add(mar2);
             players.Add(dp);
             players.Add(g2);
+            players.Add(diana);
             //logger.Trace("trace line before creating players List");
             //players = new List<IPlayer>() { };
             //newPlayers = new List<IPlayer>();
