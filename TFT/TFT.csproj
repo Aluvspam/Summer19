@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DanielPlayer2.cs" />
+    <Compile Include="DianaPlayer.cs" />
     <Compile Include="GeoPHelper.cs" />
     <Compile Include="GeoPHelper2.cs" />
     <Compile Include="GeoPlayer2.cs" />
