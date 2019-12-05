@@ -57,6 +57,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="FactorialTests.cs" />
+    <Compile Include="fibonTests.cs" />
     <Compile Include="PeperoniTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

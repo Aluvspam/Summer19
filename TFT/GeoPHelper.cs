@@ -9,8 +9,17 @@ namespace TFT
     class GeoPHelper : IPlayer
     {
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
-        {           
-                return Moves.B;          
+        {
+            if (othersLastMove == Moves.D || othersLastMove == Moves.B)
+            {
+                return Moves.C;
+            }
+            else
+            {
+                return Moves.D;
+            }
+     
+
         }
         public Moves FirstMove()
         {

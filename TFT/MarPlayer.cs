@@ -14,24 +14,18 @@ namespace TFT
 
         public Moves FirstMove()
         {
-            return Moves.D;
+            return Moves.C;
         }
         public Moves MyMove(Moves MyLastMove, Moves OthersLastMove)
         {
-            return MarMove();
+            
+            if ((MyLastMove==Moves.C)&(OthersLastMove==Moves.B))
+            {
+                return Moves.C;
+            }
+            else{ return Moves.D;}
+            
         }
-
-        private Moves MarMove()
-        {
-            if (juc.Contains(mm))
-                {
-                    return Moves.B;
-                }
-                else
-                {
-                    return Moves.D;
-                }
-        }
-
-    }
+    
 }
+    }

@@ -42,7 +42,7 @@ namespace TFT
             IPlayer geoPHelper = new GeoPHelper();
             IPlayer geoPHelper2 = new GeoPHelper2();
             IPlayer geoege = new GeoPlayer();
-            //IPlayer random = new RandomPlayer2();
+            IPlayer random = new RandomPlayer2();
             IPlayer smc = new SmartCostin();
             IPlayer costin = new Costin();
             IPlayer silviu = new Playersilviu();
@@ -55,12 +55,10 @@ namespace TFT
             //var game = new Game(cristi2, boss);
             //var var = boss.GetType().ToString();
             //players.Add(random);
-            players.Add(geoPHelper);
-            players.Add(geoPHelper2);
-            players.Add(smc);
-            players.Add(geoege);
+            players.Add(geoPHelper);   
+            players.Add(smc);            
             players.Add(costin);
-            //players.Add(silviu);
+            ////players.Add(silviu);
             players.Add(mar);
             players.Add(mar2);
             players.Add(dp);
