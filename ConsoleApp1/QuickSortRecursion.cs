@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
+    //TO DO: fix these warnings!
     class QuickSortRecursion
     {
         int[] data = new int [12] { 12, -1, 4, 100, 9, 7, 160, 16, 8, 9, 36,25};

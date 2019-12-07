@@ -15,7 +15,7 @@ namespace Scoala
             {
                 myobj.Run();
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 Console.WriteLine("eroare prinsa in Main");
             }
