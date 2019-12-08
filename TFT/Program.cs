@@ -51,6 +51,8 @@ namespace TFT
             IPlayer dp = new DanielPlayer2();
             IPlayer g2 = new GeoPlayer2();
             IPlayer diana = new DianaPlayer();
+            IPlayer player2 = new Player2();
+            IPlayer profu = new PlayLikeABoss();
             //IPlayer liviu = new LiviuPlayer();
             //var game = new Game(cristi2, boss);
             //var var = boss.GetType().ToString();
@@ -64,6 +66,8 @@ namespace TFT
             players.Add(dp);
             players.Add(g2);
             players.Add(diana);
+            players.Add(player2);
+            players.Add(profu);
             //logger.Trace("trace line before creating players List");
             //players = new List<IPlayer>() { };
             //newPlayers = new List<IPlayer>();
