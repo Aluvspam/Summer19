@@ -11,7 +11,7 @@ namespace TFT
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
         {
 
-            if (othersLastMove == Moves.B)
+            if (othersLastMove == Moves.B && myLastMove == Moves.D)
             {
                 return Moves.C;
             }

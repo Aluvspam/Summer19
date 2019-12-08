@@ -10,7 +10,7 @@ namespace TFT
     {
         public Moves MyMove(Moves myLastMove, Moves othersLastMove)
         {
-            if (othersLastMove == Moves.D || othersLastMove == Moves.B)
+            if (othersLastMove == Moves.B && myLastMove == Moves.B)
             {
                 return Moves.C;
             }
@@ -23,7 +23,7 @@ namespace TFT
         }
         public Moves FirstMove()
         {
-            return Moves.D;
+            return Moves.B;
         }
     }
 }
