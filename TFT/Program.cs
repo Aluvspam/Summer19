@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-//using NLog;
+using NLog;
 //using Microsoft.Office.Interop.Excel;
 
 namespace TFT
@@ -14,7 +14,7 @@ namespace TFT
     class Program
     {
         #region fields
-        //private static Logger logger = LogManager.GetCurrentClassLogger();
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         //private static ALog aLogger = new ALog();
         static bool excelAvailable = false;
         static Dictionary<IPlayer, int> scores;
@@ -24,16 +24,14 @@ namespace TFT
         #endregion
         static void Main(string[] args)
         {
-
             players = new List<IPlayer>();
             newPlayers = new List<IPlayer>();
             RunTFT();
         }
 
-
         private static void RunTFT()
         {
-            //logger.Fatal("Fatal test RunTFT started");
+            logger.Fatal("S19Fatal test RunTFT started");
             //Microsoft.Office.Interop.Excel.Application xlApp = new Microsoft.Office.Interop.Excel.Application();
             //if (xlApp != null)
             //{
@@ -68,7 +66,7 @@ namespace TFT
             players.Add(diana);
             players.Add(player2);
             players.Add(profu);
-            //logger.Trace("trace line before creating players List");
+            logger.Trace("S19trace line after creating players List");
             //players = new List<IPlayer>() { };
             //newPlayers = new List<IPlayer>();
 
@@ -80,7 +78,7 @@ namespace TFT
                 newPlayers.Add(loto);
                 players.Remove(loto);
             }
-            //logger.Log(LogLevel.Error,"logException test before checking availability of excel",new Exception());
+            logger.Error("S19logException test before checking availability of excel");
             if (excelAvailable)
             {
                 //_Workbook xlWorkBook = xlApp.Workbooks.Add();
@@ -130,7 +128,7 @@ namespace TFT
             catch (Exception e)
             {
                 //aLogger.Log("error message: " + e.Message + ";source: " + e.Source);
-                //logger.Error("error message: " + e.Message + ";source: " + e.Source);
+                logger.Error("error message: " + e.Message + ";source: " + e.Source);
                 Console.WriteLine("Ai gresit jocu' baiatu meu!");
             }
             Console.ReadLine();
