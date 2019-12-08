@@ -8,6 +8,7 @@ namespace TFT
 {
     class PlayLikeABoss : AbstractTFTPlayer
     {
+        int changes;
         public PlayLikeABoss()
         {
             strategy = new TitForTat();
@@ -15,6 +16,7 @@ namespace TFT
 
         public override Moves FirstMove()
         {
+            changes = 0;
             strategy = new TitForTat();
             Subscribe(Ids.id2, Event2Handler);
             Invoke(Ids.id1);
@@ -28,6 +30,18 @@ namespace TFT
             if (moves == 1)
             {
                 Unsubscribe(Ids.id2);
+            }
+            else if (this.hisLastMove != othersLastMove)
+            {
+                changes++;
+                if (changes == 3)
+                {
+                    Console.WriteLine("I think the other plays random");
+                }
+                else if (changes > 3)
+                {
+                    Console.WriteLine("The other plays random" + new string('!', changes - 3));
+                }
             }
             StoreMoves(myLastMove, othersLastMove);
             if (othersLastMove == Moves.D)

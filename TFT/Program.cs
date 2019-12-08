@@ -59,8 +59,8 @@ namespace TFT
             //players.Add(random);
             players.Add(geoPHelper);
             players.Add(smc);
-            //players.Add(costin);
-            ////players.Add(silviu);
+            players.Add(costin);
+            players.Add(silviu);
             players.Add(mar);
             players.Add(mar2);
             players.Add(dp);
