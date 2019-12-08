@@ -6,13 +6,10 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1
 {
-    //TO DO: fix these warnings!
-    class QuickSortRecursion
+    //TO DO: fix the logic
+    public class QuickSortStrategy : AbstractSortStrategy
     {
-        int[] data = new int [12] { 12, -1, 4, 100, 9, 7, 160, 16, 8, 9, 36,25};
-        int l = 0;
-        int r = 11;
-        public static void IntArrayQuickSort(int[] data, int l, int r)
+        public void IntArrayQuickSort(int[] data, int l, int r)
         {
             int i, j;
             int x;
@@ -29,7 +26,7 @@ namespace ConsoleApp1
                     j--;
                 if (i <= j)
                 {
-                    exchange(data, i, j);
+                    Swap(data, i, j);
                     i++;
                     j--;
                 }
@@ -42,18 +39,9 @@ namespace ConsoleApp1
                 IntArrayQuickSort(data, i, r);
         }
 
-        public static void IntArrayQuickSort(int[] data)
+        public override void Sort(int[] data)
         {
             IntArrayQuickSort(data, 0, data.Length - 1);
-        }
-
-        public static void exchange(int[] data, int m, int n)
-        {
-            int temporary;
-
-            temporary = data[m];
-            data[m] = data[n];
-            data[n] = temporary;
         }
     }
 }

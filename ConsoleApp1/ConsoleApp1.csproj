@@ -71,6 +71,7 @@
     <Compile Include="QuickSortRecursion.cs" />
     <Compile Include="Singleton.cs" />
     <Compile Include="SingletonNou.cs" />
+    <Compile Include="Sorting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -12,9 +12,15 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int[] data = new int[12] { 12, -1, 4, 100, 9, 7, 160, 16, 8, 9, 36, 25 };
-            QuickSortRecursion.IntArrayQuickSort(data, 0, 11);
-            Console.WriteLine(data);
+            var sortari = new Sorting();
+            sortari.Sort(data);
             Console.WriteLine("/////////////");
+            data = new int[12] { 12, -1, 4, 100, 9, 7, 160, 16, 8, 9, 36, 25 };
+            sortari.SetStrategy(new QuickSortStrategy());
+            sortari.Sort(data);
+            Console.WriteLine("/////////////");
+            //QuickSortRecursion.IntArrayQuickSort(data);
+            //Console.WriteLine(data);
             ExampleThreads.Run();
             Console.ReadLine();
             ChainOR.RunExample.Run();
